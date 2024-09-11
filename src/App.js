@@ -7,6 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
 import { Connect } from './components/Connect';
+import { Journey } from './components/Journey';
+
+// TODO: Colours, Journey css, Achievements/awards sections + languages, fill Projects + hobbies, fill Skills, expand NavBar, accordion ABout section in Banner
+
 
 function App() {
   return (
@@ -15,6 +19,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Journey />
       <Connect />
       <Footer />
     </div>

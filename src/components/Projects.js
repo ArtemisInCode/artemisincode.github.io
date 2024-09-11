@@ -14,31 +14,76 @@ export const Projects = () => {
       title: "Cool Project",
       description: "Description",
       imgUrl: projImg1,
+      link: "",
     },
     {
       title: "Cool Project",
       description: "Description",
       imgUrl: projImg2,
+      link: "",
     },
     {
       title: "Cool Project",
       description: "Description",
       imgUrl: projImg3,
+      link: "",
     },
     {
       title: "Cool Project",
       description: "Description",
       imgUrl: projImg1,
+      link: "",
     },
     {
       title: "Cool Project",
       description: "Description",
       imgUrl: projImg2,
+      link: "",
     },
     {
       title: "Cool Project",
       description: "Description",
       imgUrl: projImg3,
+      link: "",
+    },
+  ];
+
+  const hobbies = [
+    {
+      title: "Cool Project",
+      description: "Description",
+      imgUrl: projImg1,
+      link: "",
+    },
+    {
+      title: "Cool Project",
+      description: "Description",
+      imgUrl: projImg2,
+      link: "",
+    },
+    {
+      title: "Cool Project",
+      description: "Description",
+      imgUrl: projImg3,
+      link: "",
+    },
+    {
+      title: "Cool Project",
+      description: "Description",
+      imgUrl: projImg1,
+      link: "",
+    },
+    {
+      title: "Cool Project",
+      description: "Description",
+      imgUrl: projImg2,
+      link: "",
+    },
+    {
+      title: "Cool Project",
+      description: "Description",
+      imgUrl: projImg3,
+      link: "",
     },
   ];
 
@@ -55,10 +100,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Technical Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Hobbies</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
@@ -80,7 +125,19 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>I'll put something here</p>
+                      <p>Things I like to do for fun</p>
+                      <Row>
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Not sure what to put in this section ngl</p>
