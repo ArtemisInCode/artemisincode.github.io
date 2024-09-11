@@ -6,6 +6,7 @@ import { Skills } from './components/Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
+import { Connect } from './components/Connect';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Connect />
       <Footer />
     </div>
   );
