@@ -7,10 +7,10 @@ import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Computer Science", "Marketing", "Māori and Indigenous Studies"];
+    const toRotate = ["Comp Sci", "Marketing", "Māori & Indigenous Studies"];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(200 - Math.random() * 100);
-    const period = 2000;
+    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const period = 1000;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -28,7 +28,7 @@ export const Banner = () => {
         setText(updatedText);
 
         if (isDeleting) {
-            setDelta(prevDelta => prevDelta /2)
+            setDelta(prevDelta => prevDelta * 0.60)
         }
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
@@ -36,7 +36,7 @@ export const Banner = () => {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500);
+            setDelta(150); //Edit this to change typing speed
         }
     }
 
