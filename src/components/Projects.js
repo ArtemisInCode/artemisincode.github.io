@@ -1,5 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import tsPitch from "../assets/img/ts-pitch.png";
+import rayTracer from "../assets/img/ray-tracer.png";
+import alienWorld from "../assets/img/alien-world.png";
+import tsLogo from "../assets/img/ts-logo.png";
+import wtLogo from "../assets/img/wt-logo.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -11,37 +16,37 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Cool Project",
+      title: "Alien World",
       description: "Description",
-      imgUrl: projImg1,
+      imgUrl: alienWorld,
       link: "",
     },
     {
-      title: "Cool Project",
+      title: "Ray Tracer",
       description: "Description",
-      imgUrl: projImg2,
+      imgUrl: rayTracer,
       link: "",
     },
     {
-      title: "Cool Project",
+      title: "Third Space Site",
       description: "Description",
-      imgUrl: projImg3,
+      imgUrl: tsLogo,
       link: "",
     },
     {
-      title: "Cool Project",
+      title: "Third Space Pitch",
       description: "Description",
-      imgUrl: projImg1,
+      imgUrl: tsPitch,
       link: "",
     },
     {
-      title: "Cool Project",
+      title: "Waka Tours",
       description: "Description",
-      imgUrl: projImg2,
+      imgUrl: wtLogo,
       link: "",
     },
     {
-      title: "Cool Project",
+      title: "Argonauts Game",
       description: "Description",
       imgUrl: projImg3,
       link: "",
@@ -128,7 +133,7 @@ export const Projects = () => {
                       <p>Things I like to do for fun</p>
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          hobbies.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
