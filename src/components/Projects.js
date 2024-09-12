@@ -31,7 +31,7 @@ export const Projects = () => {
       title: "Third Space Site",
       description: "Description",
       imgUrl: tsLogo,
-      link: "",
+      link: "https://mable2818.softr.app/",
     },
     {
       title: "Third Space Pitch",
@@ -43,7 +43,7 @@ export const Projects = () => {
       title: "Waka Tours",
       description: "Description",
       imgUrl: wtLogo,
-      link: "",
+      link: "https://roscoe1883.softr.app/",
     },
     {
       title: "Argonauts Game",

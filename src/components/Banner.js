@@ -5,7 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/cut-head.png";
 import { HashLink } from 'react-router-hash-link';
 import {
-  BrowserRouter as Router
+    BrowserRouter as Router
 } from "react-router-dom";
 
 export const Banner = () => {

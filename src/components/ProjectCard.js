@@ -13,7 +13,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
           <span>{description}</span>
           </Row>
           <Row>
-          <Button >Explore</Button>
+          <a href={link}>Explore</a>
           </Row>
         </div>
       </div>
