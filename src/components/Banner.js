@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from "../assets/img/ah-head.jpeg";
+import headerImg from "../assets/img/cut-head.png";
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
