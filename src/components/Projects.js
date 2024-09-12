@@ -37,7 +37,7 @@ export const Projects = () => {
       title: "Third Space Pitch",
       description: "Description",
       imgUrl: tsPitch,
-      link: "",
+      link: "https://youtu.be/rkGpzHMlPmY",
     },
     {
       title: "Waka Tours",
