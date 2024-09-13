@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e4e837a.css",
-    "main.js": "/static/js/main.aef65e2b.js",
+    "main.css": "/static/css/main.8cc5b0df.css",
+    "main.js": "/static/js/main.7667226c.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/cut-head.png": "/static/media/cut-head.5b663b571a1599127b2f.png",
     "static/media/alien-world.png": "/static/media/alien-world.66341cc983b8b0a10b71.png",
@@ -31,12 +31,12 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "static/media/email-icon.svg": "/static/media/email-icon.943d672f75ac2e2f3803ba3997d4a42d.svg",
-    "main.8e4e837a.css.map": "/static/css/main.8e4e837a.css.map",
-    "main.aef65e2b.js.map": "/static/js/main.aef65e2b.js.map",
+    "main.8cc5b0df.css.map": "/static/css/main.8cc5b0df.css.map",
+    "main.7667226c.js.map": "/static/js/main.7667226c.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e4e837a.css",
-    "static/js/main.aef65e2b.js"
+    "static/css/main.8cc5b0df.css",
+    "static/js/main.7667226c.js"
   ]
 }
