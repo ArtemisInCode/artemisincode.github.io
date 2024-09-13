@@ -38,7 +38,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Computer Science & Marketing Graduate | Exploring Cybersecurity, Gaming, and Indigenous Innovation in Tech</p>
+                            <p>What I've picked up over the years</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <h5>Version Control/Git</h5>
@@ -49,7 +49,7 @@ export const Skills = () => {
                                     <p>As a Marketing and Communications intern at CerebralFix, I revitalized their social media presence, developing strategies and laying out a roadmap to sustain engagement and growth.</p>
                                 </div>
                                 <div className="item">
-                                    <h5>Programming Languages (Python, C, Java, SQL, HTML, CSS, JavaScript)</h5>
+                                    <h5>Programming Languages</h5>
                                     <p>Over the course of my degree, I worked with multiple programming languages, applying them to a wide variety of projects, including web development (HTML, CSS, JavaScript) and software development (Python, C, Java). I also have experience with SQL for database management.</p>
                                 </div>
                                 <div className="item">

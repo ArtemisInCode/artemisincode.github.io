@@ -283,7 +283,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  /* animation: updown 3s linear infinite; */
   border-radius: 45%;
 }
 @keyframes updown {
@@ -300,6 +300,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+
+/************ About Css ************/
+
+.about {
+  text-align: center; /* Center align all text by default */
+  padding: 100px 0; /* Add some padding for spacing */
+}
+
+.about h1 {
+  font-size: 36px; /* Adjust the size of the title */
+  margin-bottom: 40px; /* Space below the title */
+}
+
 
 /************ Skills Css ************/
 .skill {
@@ -333,6 +347,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
+.skill-slider .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.skill-slider h5 {
+  min-height: 50px; /* Set a minimum height to align all headers */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-slider p {
+  min-height: 100px; /* Set a minimum height to align all paragraphs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px; /* Add spacing between the paragraph and other items */
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -547,6 +584,76 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+
+/************ Timeline Css ************/
+
+.journey {
+  text-align: center; /* Center align all text by default */
+  padding: 50px 0; /* Add some padding for spacing */
+}
+
+.journey h1 {
+  font-size: 36px; /* Adjust the size of the title */
+  margin-bottom: 40px; /* Space below the title */
+}
+
+.journey .row {
+  display: flex;
+  align-items: center; /* Center items vertically within each row */
+  margin-bottom: 30px; /* Space between rows */
+}
+
+.journey .row:nth-child(even) .col:first-child {
+  /* Right-aligned content on the left side for even rows */
+  text-align: right;
+}
+
+.journey .row:nth-child(odd) .col:last-child {
+  /* Left-aligned content on the right side for odd rows */
+  text-align: left;
+}
+
+.journey h3, .journey h5, .journey p {
+  margin: 0; /* Remove default margins for tight spacing */
+}
+
+.journey .col {
+  flex: 1;
+  padding: 0 20px; /* Add some padding to each column for spacing */
+}
+
+/************ Contacts Css ************/
+.connect {
+  text-align: center; /* Center align all text by default */
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.connect h1 {
+  font-size: 36px; /* Adjust the size of the title */
+  margin-bottom: 40px; /* Space below the title */
+}
+.connect h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.connect p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.connect-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.connect-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
 }
 
 /************ Footer Css ************/

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import colorSharp from "../assets/img/color-sharp.png"
 
 // CSS for formatting & position + navbar links
 export const Journey = () => {
@@ -78,6 +79,7 @@ export const Journey = () => {
             </Col>
         </Row>
     </Container>
+    <img className="background-image-left" src={colorSharp} />
     </section>
   )
 }

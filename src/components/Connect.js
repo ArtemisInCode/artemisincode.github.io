@@ -30,7 +30,7 @@ export const Connect = () => {
     };
 
     return (
-        <section className="project" id="connect">
+        <section className="connect" id="connect">
             <Container>
                 <Row>
                     <Col>
@@ -39,7 +39,7 @@ export const Connect = () => {
                                 Get In Touch!
                             </h2>
                             <p>Find me at:</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className="connect-slider">
                                 <div className="item">
                                     <a href="mailto:artemis.hingston@gmail.com">
                                     <img src={emailIcon} alt="Email" />

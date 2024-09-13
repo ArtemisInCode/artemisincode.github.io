@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
+import colorSharp2 from "../assets/img/color-sharp2.png"
 
 export const About = () => {
   return (
@@ -16,6 +17,7 @@ export const About = () => {
                 Let's connect and make a positive impact together!</p>
             </Row>
         </Container>
+        <img className="background-image-right" src={colorSharp2} />
     </section>
   )
 }
