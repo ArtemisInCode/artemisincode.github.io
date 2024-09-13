@@ -5,6 +5,8 @@ import rayTracer from "../assets/img/ray-tracer.png";
 import alienWorld from "../assets/img/alien-world.png";
 import tsLogo from "../assets/img/ts-logo.png";
 import wtLogo from "../assets/img/wt-logo.png";
+import ucFunKit from "../assets/img/uckunkit.png";
+import cwbPitch from "../assets/img/cwb-pitch.jpg";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -46,50 +48,53 @@ export const Projects = () => {
       link: "https://roscoe1883.softr.app/",
     },
     {
-      title: "Argonauts Game",
+      title: "Maze Runner Game",
       description: "Description",
-      imgUrl: projImg3,
-      link: "",
+      imgUrl: ucFunKit,
+      link: "https://github.com/ArtemisInCode/Maze-Runner",
     },
   ];
 
+  const marketing = [
+    {
+      title: "Third Space Pitch",
+      description: "Description",
+      imgUrl: tsPitch,
+      link: "https://youtu.be/rkGpzHMlPmY",
+    },
+    {
+      title: "Weta Bar",
+      description: "Description",
+      imgUrl: cwbPitch,
+      link: "",
+    },
+    // {
+    //   title: "Cool Project",
+    //   description: "Description",
+    //   imgUrl: projImg3,
+    //   link: "",
+    // },
+  ];
+
   const hobbies = [
-    {
-      title: "Cool Project",
-      description: "Description",
-      imgUrl: projImg1,
-      link: "",
-    },
-    {
-      title: "Cool Project",
-      description: "Description",
-      imgUrl: projImg2,
-      link: "",
-    },
-    {
-      title: "Cool Project",
-      description: "Description",
-      imgUrl: projImg3,
-      link: "",
-    },
-    {
-      title: "Cool Project",
-      description: "Description",
-      imgUrl: projImg1,
-      link: "",
-    },
-    {
-      title: "Cool Project",
-      description: "Description",
-      imgUrl: projImg2,
-      link: "",
-    },
-    {
-      title: "Cool Project",
-      description: "Description",
-      imgUrl: projImg3,
-      link: "",
-    },
+    // {
+    //   title: "Cool Project",
+    //   description: "Description",
+    //   imgUrl: projImg1,
+    //   link: "",
+    // },
+    // {
+    //   title: "Cool Project",
+    //   description: "Description",
+    //   imgUrl: projImg2,
+    //   link: "",
+    // },
+    // {
+    //   title: "Cool Project",
+    //   description: "Description",
+    //   imgUrl: projImg3,
+    //   link: "",
+    // },
   ];
 
   return (
@@ -101,20 +106,20 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div>
                 <h2>Projects</h2>
-                <p>I will add all my cool projects soon</p>
+                {/* <p>I will add all my cool projects soon</p> */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Technical</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Hobbies</Nav.Link>
+                      <Nav.Link eventKey="second">Marketing</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Hobbies</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
@@ -130,10 +135,9 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Things I like to do for fun</p>
                       <Row>
                         {
-                          hobbies.map((project, index) => {
+                          marketing.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -145,7 +149,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Not sure what to put in this section ngl</p>
+                      <Row>
+                        {
+                          hobbies.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                        </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

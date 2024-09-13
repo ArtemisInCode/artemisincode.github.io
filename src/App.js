@@ -10,7 +10,7 @@ import { Connect } from './components/Connect';
 import { Journey } from './components/Journey';
 import { About } from './components/About';
 
-// TODO: Colours, Journey css, Achievements/awards sections + languages, fill Projects + hobbies, fill Skills, expand NavBar, accordion ABout section in Banner
+// TODO: Colours, Achievements/awards sections + languages, fill Projects + hobbies, backgrounds
 
 
 function App() {
