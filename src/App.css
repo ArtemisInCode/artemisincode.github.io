@@ -307,6 +307,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about {
   text-align: center; /* Center align all text by default */
   padding: 100px 0; /* Add some padding for spacing */
+  width: 50%;
+  margin: 0 auto;
 }
 
 .about h1 {

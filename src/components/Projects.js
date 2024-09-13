@@ -17,15 +17,15 @@ export const Projects = () => {
   const projects = [
     {
       title: "Alien World",
-      description: "Description",
+      description: "Used C/C++ and OpenGL API to develop an OpenGL program to display a scene where On a remote planet, a few aliens are preparing a spaceship for liftoff.",
       imgUrl: alienWorld,
-      link: "",
+      link: "https://github.com/ArtemisInCode/Alien-World-OpenGL",
     },
     {
       title: "Ray Tracer",
-      description: "Description",
+      description: "Implemented a ray tracer hat can handle different types of geometric objects and global illumination features, and demonstrate its capability in enhancing the visual realism of a rendered scene.",
       imgUrl: rayTracer,
-      link: "",
+      link: "https://github.com/ArtemisInCode/Ray-Tracer",
     },
     {
       title: "Third Space Site",
@@ -105,7 +105,7 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Technical Projects</Nav.Link>
+                      <Nav.Link eventKey="first">Technical</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Hobbies</Nav.Link>
