@@ -38,7 +38,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>What I've picked up over the years</p>
+                            <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <h5>Version Control/Git</h5>

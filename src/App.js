@@ -10,7 +10,7 @@ import { Connect } from './components/Connect';
 import { Journey } from './components/Journey';
 import { About } from './components/About';
 
-// TODO: Colours, Achievements/awards sections + languages, fill Projects + hobbies, backgrounds
+// TODO: Colours, Achievements/awards sections + languages, backgrounds
 
 
 function App() {
