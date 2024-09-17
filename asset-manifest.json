@@ -1,24 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.4f39b049.css",
-    "main.js": "/static/js/main.9f30f3d6.js",
+    "main.js": "/static/js/main.42436398.js",
     "static/js/453.0437a03d.chunk.js": "/static/js/453.0437a03d.chunk.js",
     "static/media/cut-head.png": "/static/media/cut-head.5b663b571a1599127b2f.png",
     "static/media/uckunkit.png": "/static/media/uckunkit.7a790b2fedee19171a8e.png",
-    "static/media/alien-world.png": "/static/media/alien-world.66341cc983b8b0a10b71.png",
+    "static/media/alien-world.png": "/static/media/alien-world.3923edf4b75f29cc0861.png",
     "static/media/ts-logo.png": "/static/media/ts-logo.c9e3dedcb7c2cd27f577.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/ts-pitch.png": "/static/media/ts-pitch.8f0c7f9486ece83925d0.png",
     "static/media/ray-tracer.png": "/static/media/ray-tracer.1986a4227da3fd6841fd.png",
     "static/media/cwb-pitch.jpg": "/static/media/cwb-pitch.b41a0be169deeff01ca2.jpg",
+    "static/media/book-stack.jpg": "/static/media/book-stack.41153ca0687be428afd6.jpg",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/wt-logo.png": "/static/media/wt-logo.01241f6966f0f3be5c31.png",
+    "static/media/skiing.jpg": "/static/media/skiing.681aeac8aa16d998c9d6.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img1.png": "/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/cf-logo.jpg": "/static/media/cf-logo.c3fc3156d5f0bf9a5843.jpg",
     "static/media/project-img2.png": "/static/media/project-img2.2e52097c417f9f1134b0.png",
     "static/media/project-img3.png": "/static/media/project-img3.675b30d2f975a1bc1d09.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -34,11 +37,11 @@
     "index.html": "/index.html",
     "static/media/email-icon.svg": "/static/media/email-icon.943d672f75ac2e2f3803ba3997d4a42d.svg",
     "main.4f39b049.css.map": "/static/css/main.4f39b049.css.map",
-    "main.9f30f3d6.js.map": "/static/js/main.9f30f3d6.js.map",
+    "main.42436398.js.map": "/static/js/main.42436398.js.map",
     "453.0437a03d.chunk.js.map": "/static/js/453.0437a03d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f39b049.css",
-    "static/js/main.9f30f3d6.js"
+    "static/js/main.42436398.js"
   ]
 }
