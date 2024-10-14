@@ -61,7 +61,7 @@ export const Projects = () => {
     },
     {
       title: "Weta Bar",
-      description: "Prospetive pitch deck for Crafty Weka's USA launch.",
+      description: "Prospective pitch deck for Crafty Weka's USA launch.",
       imgUrl: cwbPitch,
       link: "https://www.canva.com/design/DAFjJKdAW4g/s8BqgyHcpiHM8J1GgBQ7FA/view#1",
     },
